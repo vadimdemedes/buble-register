@@ -1,0 +1,2 @@
+const React = {createElement: () => {}};
+<div/>;

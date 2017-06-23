@@ -1,0 +1,46 @@
+{
+  "name": "buble-register",
+  "version": "0.0.0",
+  "description": "Buble require hook",
+  "license": "MIT",
+  "repository": "vadimdemedes/buble-register",
+  "author": {
+    "name": "Vadim Demedes",
+    "email": "vdemedes@gmail.com",
+    "url": "github.com/vadimdemedes"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "buble"
+  ],
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "buble": "^0.15.2",
+    "find-cache-dir": "^1.0.0",
+    "home-or-tmp": "^3.0.0",
+    "lodash.escaperegexp": "^4.1.2",
+    "lodash.isregexp": "^4.0.1",
+    "make-dir": "^1.0.0",
+    "minimatch": "^3.0.4",
+    "pirates": "^3.0.1",
+    "slash": "^1.0.0",
+    "source-map-support": "^0.4.15"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "decache": "^4.1.0",
+    "tempfile": "^2.0.0",
+    "xo": "^0.18.2"
+  },
+  "ava": {
+    "serial": true
+  }
+}
