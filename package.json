@@ -1,6 +1,6 @@
 {
   "name": "buble-register",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Buble require hook",
   "license": "MIT",
   "repository": "vadimdemedes/buble-register",
